@@ -1,0 +1,19 @@
+<div>
+  <form action="/projects/{{project.id}}/tasks" method="post">
+    <legend>New Task</legend>
+
+    <div class="form-group">
+      <label for="task-title">Title</label>
+      <input type="text" name="title" class="form-control" id="task-title">
+    </div>
+
+    <div class="form-group">
+      <label for="task-body">Body</label>
+      <input type="text" name="body" class="form-control" id="task-body">
+    </div>
+
+    <div>
+      <button type="submit" class="btn btn-primary">Finish</button>
+    </div>
+  </form>
+</div>

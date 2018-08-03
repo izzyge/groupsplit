@@ -1,0 +1,186 @@
+.navbar-nav {
+  align-items: center;
+}
+
+span {
+  color: #a4a4a4;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.navbar-brand {
+  color: #56cbd3!important;
+}
+
+.parallax {
+    background-image: url('../img/handscover.svg');
+    background-position: bottom;
+    min-height: 65em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section {
+  background-color: #419388;
+  padding: 27em;
+}
+
+
+form {
+  max-width: 40em;
+}
+
+body {
+  font: 14px "Helvetica";
+}
+
+a {
+  color: #00B7FF;
+}
+
+h4 {
+  font-style: italic;
+  font-weight: 100;
+  color: #a4a4a4;
+  padding-top: 12em;
+  padding-bottom: 2em;
+}
+
+nav {
+  font-weight: 300;
+}
+
+.login {
+  color: #ffffff;
+  background-color: #79d1c5;
+  background-size: cover;
+  background-position: center;
+  padding: 8% 0;
+  padding-bottom: 20em;
+  font-weight: lighter;
+}
+
+.login legend {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.login-input .form-control {
+  color: white!important;
+}
+
+input[type="text"]:focus,
+.login-input .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: white!important;
+}
+
+.login-submit-button {
+  padding-top: 2em;
+}
+
+label {
+  font-size: 23px;
+  font-weight: lighter;
+  padding-top: 2em;
+}
+
+input{
+  padding-top: 30px;
+  font-size: 20px;
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+script li {
+  text-align: left;
+  font-size: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+script li:hover {
+  text-decoration: line-through;
+}
+
+.new-project {
+  color: white;
+  background-color: #79d1c5;
+  padding: 12em;
+  padding-bottom: 15em;
+}
+
+.new-project .form-control {
+  color: white;
+}
+
+.new-project-button {
+  border-radius: 35px;
+}
+
+.new-project .btn {
+  margin-top: 2em;
+}
+
+.project-topic {
+  color: #6a6e72;
+}
+
+.project-input ::placeholder {
+  color: #a4a4a4;
+}
+
+
+.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#delete-task {
+  color: #4BA0B5;
+  font-size: 1em;
+  border-color: transparent!important;
+  padding-left: 96%;
+}
+
+#delete-task:hover  {
+  color: #a4a4a4;
+}
+
+.card {
+  padding: 1em;
+  margin: 4em;
+  width: 18rem;
+  height: 9rem;
+}
+
+
+#plus-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:46px;
+  height:46px;
+  margin-top: -23px;
+  margin-left: -23px;
+}
+
+.card-body {
+  color: #8a8b8c;
+}
+.plus-card:hover {
+  background-color: #efefef;
+}

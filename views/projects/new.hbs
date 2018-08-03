@@ -1,0 +1,57 @@
+<div class = "col-12 new-project">
+<div class = "row justify-content-center">
+  <form action="/projects" method="post" onkeypress="return event.keyCode 13;">
+    <legend>New Project</legend>
+
+    <div class="form-group project-input">
+      <label for="project-title">Topic</label>
+      <input type="text" name="topic" class="form-control" id="project-topic" placeholder="Topic" autocomplete="off">
+    </div>
+
+    <!-- <div class = "form-group">
+      <label name="tasks" for = "tasks">Tasks</label>
+      <input id="input" type = "text" placeholder="What needs to be done?">
+          <ul id="list"></ul>
+          <script>
+
+            let tasksarray = [];
+
+            function newTask(){
+            var task = document.getElementById("input").value;
+            var ul = document.getElementById("list");
+            var li = document.createElement("li");
+            // console.log(task);
+            tasksarray.push(task);
+            li.appendChild(document.createTextNode(task));
+            ul.appendChild(li);
+            document.getElementById("input").value = "";
+            li.onclick = removeTask;
+            }
+
+
+            document.body.onkeyup = function(e) {
+              if (e.keyCode == 13) {
+                newTask();
+            }
+            };
+
+
+            function removeTask(e) {
+              e.target.parentElement.removeChild(e.target);
+            }
+
+          </script>
+    </div> -->
+
+    <div class="form-group project-input">
+        <label for="project-share" id="project-share">Share with</label>
+        <input type="text" name="share" class="form-control" placeholder="username, username" autocomplete="off">
+    </div>
+
+
+    <div class="text-right">
+      <button type="submit" class="btn btn-outline-light">Submit</button>
+    </div>
+  </form>
+</div>
+</div>
